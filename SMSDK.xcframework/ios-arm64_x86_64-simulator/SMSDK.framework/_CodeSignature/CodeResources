@@ -77,10 +77,6 @@
 		<data>
 		7bfx2ViueeCRQmzjPn+Zm+ruuaM=
 		</data>
-		<key>SMResource.bundle/icon_chat_delete@3x.png</key>
-		<data>
-		NiQNJ43iye7sfRdPVyKNpHWHkaw=
-		</data>
 		<key>SMResource.bundle/navi/icon_chat_delete@3x.png</key>
 		<data>
 		NiQNJ43iye7sfRdPVyKNpHWHkaw=
@@ -233,13 +229,6 @@
 			<key>hash2</key>
 			<data>
 			lXbjk5bbETJ4nK1BYzDd8+cOXu2te34PhvEQGMz7sTY=
-			</data>
-		</dict>
-		<key>SMResource.bundle/icon_chat_delete@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mmzZtV9UVmm63UKIR7/1GjmJbY4HYve7vMxAJIoNCVU=
 			</data>
 		</dict>
 		<key>SMResource.bundle/navi/icon_chat_delete@3x.png</key>
