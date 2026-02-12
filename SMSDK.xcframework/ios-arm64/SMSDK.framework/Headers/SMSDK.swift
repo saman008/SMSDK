@@ -44,5 +44,26 @@ open class SMSDK: NSObject {
         target.view.addSubview(imageview1)
         target.view.addSubview(imageview2)
         target.view.addSubview(imageview3)
+        
+        if let img = UIImage(nameInBundle: "icon_blacklist"){
+            print("UIImage(nameInBundle:图片成功\(img)")
+        }else{
+            print("UIImage(nameInBundle:图片加载失败")
+        }
+        if let img = UIImage(nameInBundle: "icon_chat_delete"){
+            print("UIImage(nameInBundle:navi图片成功\(img)")
+        }else{
+            print("UIImage(nameInBundle:navi图片加载失败")
+        }
+        if let img = SMSDK.bundlePath(at: "icon_group"){
+            print("bundlePathheaders图片成功\(img)")
+        }else{
+            print("bundlePathheaders图片加载失败")
+        }
+        
+    }
+    
+    public static func bundlePath(at name: String) -> UIImage?{
+        return UIImage(named: name, in: Bundle.init(path: LDIM.sdkBundle.bundlePath+"/headers"), compatibleWith: nil)
     }
 }

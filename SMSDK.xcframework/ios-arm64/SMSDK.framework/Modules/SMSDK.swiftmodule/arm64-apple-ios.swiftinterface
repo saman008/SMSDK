@@ -2,16 +2,67 @@
 // swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
 // swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SMSDK
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+import Foundation
+import Kingfisher
 import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension UIKit.UIImageView {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func setImage(with string: Swift.String?, placeHolder: Swift.String? = nil, completion: ((UIKit.UIImage) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func setImagePath(_ path: Swift.String, placeHolder _: Swift.String?)
+  #endif
+}
+extension UIKit.UIImage {
+  #if compiler(>=5.3) && $NonescapableTypes
+  convenience public init?(nameInBundle: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  convenience public init?(nameInEmoji: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  convenience public init?(path: Swift.String?)
+  #endif
+}
+extension UIKit.UIImageView {
+  @_Concurrency.MainActor @preconcurrency public func loadGif(name: Swift.String)
+}
+extension UIKit.UIImage {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public class func gif(data: Foundation.Data) -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public class func gif(url: Swift.String) -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public class func gif(name: Swift.String) -> UIKit.UIImage?
+  #endif
+}
 @_hasMissingDesignatedInitializers public class LDIM {
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class SMIMController : ObjectiveC.NSObject {
+  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers open class SMSDK : ObjectiveC.NSObject {
   public static func getBundleImage(target: UIKit.UIViewController)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func bundlePath(at name: Swift.String) -> UIKit.UIImage?
+  #endif
   @objc override dynamic public init()
   @objc deinit
+}
+public enum SMViewControllerFactory {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func getBundle() -> Foundation.Bundle?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func getEmojiBundle() -> Foundation.Bundle?
+  #endif
+  public static func getContactStoryboard() -> UIKit.UIStoryboard
 }

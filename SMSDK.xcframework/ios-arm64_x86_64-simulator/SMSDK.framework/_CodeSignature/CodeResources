@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/SMIMController.swift</key>
+		<data>
+		9oJHkxJsch86obemoAGh+fiuBMA=
+		</data>
 		<key>Headers/SMSDK.swift</key>
 		<data>
-		v75Aw90q+QaSiIc4MFMF8+dtGfg=
+		CDh9CiNwDrbapC6DRILzaelwXD8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,11 +18,11 @@
 		</data>
 		<key>Modules/SMSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		mFR5W0UXBfHaI3X/QgjUvY+HvkI=
+		9MLpruUmCBnXxNWuZGViP46agg4=
 		</data>
 		<key>Modules/SMSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		us8cFNkLqYzLXloE0eM4DikuAOg=
+		1f8G+6sCBt9XyroEEZlRYNWXkwQ=
 		</data>
 		<key>Modules/SMSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +30,19 @@
 		</data>
 		<key>Modules/SMSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		us8cFNkLqYzLXloE0eM4DikuAOg=
+		1f8G+6sCBt9XyroEEZlRYNWXkwQ=
 		</data>
 		<key>Modules/SMSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZdD2GjlgY5daY6KKDxbEc2u7Aks=
+		ouZJabh7HcJl9x7qBoJePMfeZgs=
 		</data>
 		<key>Modules/SMSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		mFR5W0UXBfHaI3X/QgjUvY+HvkI=
+		9MLpruUmCBnXxNWuZGViP46agg4=
 		</data>
 		<key>Modules/SMSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		scyMd6PHh56WzjDOmXJ7adKVDYc=
+		eJq/bDYkjTNN7IbZGRiIP703zGQ=
 		</data>
 		<key>Modules/SMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +50,40 @@
 		</data>
 		<key>Modules/SMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		scyMd6PHh56WzjDOmXJ7adKVDYc=
+		eJq/bDYkjTNN7IbZGRiIP703zGQ=
 		</data>
 		<key>Modules/SMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KuTnPFXQpdRQ+ZtuUl6ok+uOZCE=
+		YmiJpjzuGxTpuld9HPkKVbVBWfE=
+		</data>
+		<key>SMResource.bundle/Root.plist</key>
+		<data>
+		jOhqEUF1/xyY+fuswiWT+ELC3dI=
+		</data>
+		<key>SMResource.bundle/en.lproj/Root.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t4KY9Gh4uIiOv7VnHtRrKEuPRY8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>SMResource.bundle/icon_blacklist@3x.png</key>
+		<data>
+		6Uo+cw5z5lNnj7EaGJrfSHk5bHE=
+		</data>
+		<key>SMResource.bundle/icon_cancelrecord_s@3x.png</key>
+		<data>
+		7bfx2ViueeCRQmzjPn+Zm+ruuaM=
+		</data>
+		<key>SMResource.bundle/icon_chat_delete@3x.png</key>
+		<data>
+		NiQNJ43iye7sfRdPVyKNpHWHkaw=
+		</data>
+		<key>SMResource.bundle/navi/icon_chat_delete@3x.png</key>
+		<data>
+		NiQNJ43iye7sfRdPVyKNpHWHkaw=
 		</data>
 		<key>SMSDK.bundle/Root.plist</key>
 		<data>
@@ -65,6 +98,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>SMSDK.bundle/headers/icon_group@3x.png</key>
+		<data>
+		F15t6vKRGBl/aAit8BgAIpKsd5I=
+		</data>
 		<key>SMSDK.bundle/icon-20.png</key>
 		<data>
 		m2SMNwLHRPgGcNpMjrNL7unf0ic=
@@ -84,25 +121,32 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/SMIMController.swift</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TJ9rqYLW7mzER9L60sD2C4Tm7833T+vJ5ufcBHnhbG4=
+			</data>
+		</dict>
 		<key>Headers/SMSDK.swift</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WkXeuycoVMGpl9jK/x9zXm5WsuAC1wlZJsTFa+j+XWY=
+			UJ66ctIsGyVB5j+xyoM5Fyzh7+TwjJGpKt/2AEoWD2g=
 			</data>
 		</dict>
 		<key>Modules/SMSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JtJw9bHKDDyZ2vdzhFk8rcH+Vz4YoOalCMKBsAFAN7g=
+			954mSiNyB4cJwcS4r5BymhxTKcvr9sLPx8QEqqxT6YE=
 			</data>
 		</dict>
 		<key>Modules/SMSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JwgK+AH7/oo9xmYSjhZ+9mtHzJGlg8vUMFgTkw7nO9g=
+			5lxf2UQF3IgvCjb8+95G3o91sT6MQVEiv1ODhiZoFPU=
 			</data>
 		</dict>
 		<key>Modules/SMSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -116,28 +160,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JwgK+AH7/oo9xmYSjhZ+9mtHzJGlg8vUMFgTkw7nO9g=
+			5lxf2UQF3IgvCjb8+95G3o91sT6MQVEiv1ODhiZoFPU=
 			</data>
 		</dict>
 		<key>Modules/SMSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pq53nuKHhSfKXZPD85+KdEXJbrL7jYnbpH0SCaZ+XhA=
+			wUfCWXI2dWdvxENBnXTEZz4pTr0Od+5v11Z6HNzoV98=
 			</data>
 		</dict>
 		<key>Modules/SMSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JtJw9bHKDDyZ2vdzhFk8rcH+Vz4YoOalCMKBsAFAN7g=
+			954mSiNyB4cJwcS4r5BymhxTKcvr9sLPx8QEqqxT6YE=
 			</data>
 		</dict>
 		<key>Modules/SMSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lMPD1DPG6q9ru/MJWSqUsg2IPz1RDNZYTz4EBnYA7vI=
+			WKM25/REv0xIgJCoXVmgA4QnbH8/NPCA4pPFtlZ8Tjo=
 			</data>
 		</dict>
 		<key>Modules/SMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -151,14 +195,58 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lMPD1DPG6q9ru/MJWSqUsg2IPz1RDNZYTz4EBnYA7vI=
+			WKM25/REv0xIgJCoXVmgA4QnbH8/NPCA4pPFtlZ8Tjo=
 			</data>
 		</dict>
 		<key>Modules/SMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zmk3KsxI6RqKX/jTF6V8QU5WwpAkFcmnGsCWkRVhvsA=
+			SXql9fALwHd3O2rcD6P+mtYU2W+cCbSLKYCg42wHNXI=
+			</data>
+		</dict>
+		<key>SMResource.bundle/Root.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m26DmegPkB5jwUJkVEtLlObYALX8He100Ny0+NNJg/g=
+			</data>
+		</dict>
+		<key>SMResource.bundle/en.lproj/Root.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xUzNd7J7w99oAnMIWGe1dAGArHMuEXwQqxSziDU5vLk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>SMResource.bundle/icon_blacklist@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			L0EqNGvpa2/oL78uuKmYU/n1kVzVQvyM5WmZfk0jK+Y=
+			</data>
+		</dict>
+		<key>SMResource.bundle/icon_cancelrecord_s@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lXbjk5bbETJ4nK1BYzDd8+cOXu2te34PhvEQGMz7sTY=
+			</data>
+		</dict>
+		<key>SMResource.bundle/icon_chat_delete@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mmzZtV9UVmm63UKIR7/1GjmJbY4HYve7vMxAJIoNCVU=
+			</data>
+		</dict>
+		<key>SMResource.bundle/navi/icon_chat_delete@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mmzZtV9UVmm63UKIR7/1GjmJbY4HYve7vMxAJIoNCVU=
 			</data>
 		</dict>
 		<key>SMSDK.bundle/Root.plist</key>
@@ -176,6 +264,13 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>SMSDK.bundle/headers/icon_group@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bRUTPcO/dO/qcC6eZS7F21AK7HRcOC0LE1sUnZW6eto=
+			</data>
 		</dict>
 		<key>SMSDK.bundle/icon-20.png</key>
 		<dict>

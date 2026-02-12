@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "SMSDK"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "简短的SDK描述"
 
   spec.description  = <<-DESC
@@ -23,11 +23,7 @@ Pod::Spec.new do |spec|
 
   spec.vendored_frameworks  = "SMSDK.xcframework"
 
-  spec.source_files = 'SMSDK/*.{swift,h,m}'
-  spec.resource_bundles = {
-    'SMSDK' => ['SMSDK.xcframework/ios-arm64/SMSDK.framework/SMSDK.bundle/**/*.{storyboard,xib,xcassets,json,imageset,png,strings,mp3}'],
-    'SMSDK' => ['SMSDK.xcframework/ios-arm64_x86_64-simulator/SMSDK.framework/SMSDK.bundle/**/*.{storyboard,xib,xcassets,json,imageset,png,strings,mp3}'],
-  }
+ # spec.source_files = 'SMSDK.xcframework/ios-arm64/SMSDK.framework/*.{swift,h,m}'
 
 
   # 必须的框架
