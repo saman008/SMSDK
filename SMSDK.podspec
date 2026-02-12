@@ -25,7 +25,11 @@ Pod::Spec.new do |spec|
 
  # spec.source_files = 'SMSDK.xcframework/ios-arm64/SMSDK.framework/*.{swift,h,m}'
 
+  spec.resource_bundles = {
+    'SMSDK' => ['SMSDK.xcframework/ios-arm64/SMSDK.framework/SMSDK.bundle/**/*.{storyboard,xib,xcassets,json,imageset,png,strings,mp3}'],
+    'SMResource' => ['SMSDK.xcframework/ios-arm64/SMSDK.framework/SMResource.bundle/**/*.{storyboard,xib,xcassets,json,imageset,png,strings,mp3}'],
 
+  }
   # 必须的框架
    spec.frameworks = 'UIKit', 'Foundation'
     # 静态框架
