@@ -68,6 +68,8 @@ open class SMSDK: NSObject {
         }
         print("Bundle(for: SMIMController.self).resourcePath\(Bundle(for: SMIMController.self).resourcePath)")
         print( SMViewControllerFactory.getBundle())
+        print("LDIM.sdkBundle.bundlePath\(LDIM.sdkBundle.bundlePath)")
+        print("LDIM.sdkBundle\(LDIM.sdkBundle)")
     }
     
     public static func bundlePath(at name: String) -> UIImage?{
