@@ -66,16 +66,16 @@ open class SMSDK: NSObject {
             print("UIImage(nameInBundle:图片加载失败")
         }
         
-        print("\(SMViewControllerFactory.getBundle()?.bundlePath)")
-        if let path = SMViewControllerFactory.getBundle()?.bundlePath, let img =  UIImage(named: "icon_blacklist", in: Bundle.init(path: path+"/navi"), compatibleWith: nil){
-            print("SMViewControllerFactory.getBundle()?.bundlePath\(img)")
-        }else{
-            print("SMViewControllerFactory.getBundle()?.bundlePath失败")
-        }
-        print("Bundle(for: SMIMController.self).resourcePath\(Bundle(for: SMIMController.self).resourcePath)")
-        print( SMViewControllerFactory.getBundle())
-        print("LDIM.sdkBundle.bundlePath\(LDIM.sdkBundle.bundlePath)")
-        print("LDIM.sdkBundle\(LDIM.sdkBundle)")
+//        print("\(SMViewControllerFactory.getBundle()?.bundlePath)")
+//        if let path = SMViewControllerFactory.getBundle()?.bundlePath, let img =  UIImage(named: "icon_blacklist", in: Bundle.init(path: path+"/navi"), compatibleWith: nil){
+//            print("SMViewControllerFactory.getBundle()?.bundlePath\(img)")
+//        }else{
+//            print("SMViewControllerFactory.getBundle()?.bundlePath失败")
+//        }
+//        print("Bundle(for: SMIMController.self).resourcePath\(Bundle(for: SMIMController.self).resourcePath)")
+//        print( SMViewControllerFactory.getBundle())
+//        print("LDIM.sdkBundle.bundlePath\(LDIM.sdkBundle.bundlePath)")
+//        print("LDIM.sdkBundle\(LDIM.sdkBundle)")
     }
     
     public static func bundlePath(at name: String) -> UIImage?{
