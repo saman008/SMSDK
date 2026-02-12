@@ -66,11 +66,17 @@ open class SMSDK: NSObject {
 //            print("UIImage(nameInBundle:图片加载失败")
 //        }
         if let image = SMViewControllerFactory.getBundleImage(imageName: "icon_blacklist"){
+            let imageview1 = UIImageView(image: image)
+            imageview1.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
+            target.view.addSubview(imageview1)
             print("图片加载成功icon_blacklist\(image)")
         }else{
             print("图片加载失败icon_blacklist")
         }
         if let image = SMViewControllerFactory.getBundleImage(imageName: "icon_group"){
+            let imageview1 = UIImageView(image: image)
+            imageview1.frame = CGRect(x: 100, y: 200, width: 100, height: 100)
+            target.view.addSubview(imageview1)
             print("图片加载成功icon_group@3x\(image)")
         }else{
             print("图片加载失败icon_group@3x")
