@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "SMSDK"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "简短的SDK描述"
 
   spec.description  = <<-DESC
@@ -40,5 +40,5 @@ Pod::Spec.new do |spec|
    spec.dependency "RxGesture"
    spec.dependency "Differentiator"
    spec.dependency "RxRelay"
-
+   spec.dependency "Kingfisher"
 end
