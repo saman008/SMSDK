@@ -55,11 +55,17 @@ open class SMSDK: NSObject {
         }else{
             print("UIImage(nameInBundle:navi图片加载失败")
         }
-        if let img = SMSDK.bundlePath(at: "icon_group"){
-            print("bundlePathheaders图片成功\(img)")
+        if let img = UIImage.bundledImage(named: "icon_chat_delete"){
+            print("UIImage.bundledImage(named:图片成功\(img)")
         }else{
-            print("bundlePathheaders图片加载失败")
+            print("UIImage.bundledImage(named:图片加载失败")
         }
+        if let img = UIImage(nameInBundle: "icon-20"){
+            print("UIImage(nameInBundle:图片成功\(img)")
+        }else{
+            print("UIImage(nameInBundle:图片加载失败")
+        }
+        
         print("\(SMViewControllerFactory.getBundle()?.bundlePath)")
         if let path = SMViewControllerFactory.getBundle()?.bundlePath, let img =  UIImage(named: "icon_blacklist", in: Bundle.init(path: path+"/navi"), compatibleWith: nil){
             print("SMViewControllerFactory.getBundle()?.bundlePath\(img)")
