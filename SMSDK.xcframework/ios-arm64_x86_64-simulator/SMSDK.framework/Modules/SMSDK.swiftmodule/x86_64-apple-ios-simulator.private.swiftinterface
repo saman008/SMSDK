@@ -42,22 +42,19 @@ extension UIKit.UIImage {
   public class func gif(name: Swift.String) -> UIKit.UIImage?
   #endif
 }
-@_hasMissingDesignatedInitializers public class LDIM {
-  @objc deinit
-}
 @objc @_inheritsConvenienceInitializers public class SMIMController : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers open class SMSDK : ObjectiveC.NSObject {
   public static func getBundleImage(target: UIKit.UIViewController)
-  #if compiler(>=5.3) && $NonescapableTypes
-  public static func bundlePath(at name: Swift.String) -> UIKit.UIImage?
-  #endif
   @objc override dynamic public init()
   @objc deinit
 }
 public enum SMViewControllerFactory {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func getBundleImage(imageName: Swift.String) -> UIKit.UIImage?
+  #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func getBundle() -> Foundation.Bundle?
   #endif
